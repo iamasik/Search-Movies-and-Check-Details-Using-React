@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+button{
+    margin: 0;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    background-color: #00d0ff;
+}
+h1{
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.Container{
+    margin: 0 auto;
+    width: 90%;
+}
+.MovieBox{
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.card .title{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card button{
+    margin: 0;
+}
+.card p{
+    padding-bottom: 10px;
+    margin: 0;
+}
+.card img{
+    padding-bottom: 10px;
+}
+.card{
+    border-radius: 5px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px 0px #515151;
+    display: inline-block;
+    width: 240px;
+    height: 300px;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+.card img{
+    width: auto;
+    height: 200px;
+}
+.CardDetails{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffffd3;
+    border-radius: 0px 0px 5px 5px;
+}
+.CardDetails .innerBox{
+    padding: 10px;
+}
+.SearchForm{
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 30px;
+}
+.SearchForm input{
+    width: 300px;
+    background-color: #00d0ff73;
+    border: 1px solid #00000023;
+    border-radius: 5px;
+}
+Form{
+    display: flex;
+    justify-content: space-between
+}
+.FullDetails{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.FullDetails .Img{
+    width: 300px;
+    padding-right: 40px
+}
+.FullDetails img{
+    width: 100%;
+    height: auto;
+}
+.FullDetails .Details{
+    width: 100%;
+}
+.FullDetails h1{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
